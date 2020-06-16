@@ -1,15 +1,24 @@
-<html>
-<script>
-for (i = 0; i < 100; i++) {
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      for (i = 0; i < 100; i++) {
         console.log(i);
         if (i % 3 == 0) {
-          console.log(" fizz");
+          console.log(`${i} is fizz`);
         } else if (i % 5 == 0) {
-          console.log("buzz");
+          console.log(`${i} is buzz`);
         }
         if ((i % 3 == 0) & (i % 5 == 0)) {
-          console.log("fizzbuzz");
+          console.log(`${i} is fizzbuzz`);
         }
       }
-      </script>
+    </script>
+  </body>
 </html>
+
